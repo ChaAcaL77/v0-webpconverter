@@ -1,9 +1,9 @@
-import { ImageConverter } from "@/components/image-converter"
-import { BrowserSupportWarning } from "@/components/browser-support-warning"
+import { ImageConverterEn } from "@/components/image-converter-en"
+import { BrowserSupportWarningEn } from "@/components/browser-support-warning-en"
 import { Logo } from "@/components/logo"
 import { Github } from "lucide-react"
 
-export default function Home() {
+export default function EnglishPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
       {/* Header */}
@@ -11,13 +11,13 @@ export default function Home() {
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <Logo />
           <div className="flex items-center gap-4">
-            <a href="/" className="text-sm font-medium text-teal-600 dark:text-teal-400">
-              PT
-            </a>
             <a
-              href="/en"
+              href="/"
               className="text-sm text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors"
             >
+              PT
+            </a>
+            <a href="/en" className="text-sm font-medium text-teal-600 dark:text-teal-400">
               EN
             </a>
             <a
@@ -38,18 +38,18 @@ export default function Home() {
           {/* Hero Section */}
           <div className="text-center mb-12 mt-4">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 bg-gradient-to-r from-slate-900 to-teal-600 dark:from-white dark:to-teal-400 text-transparent bg-clip-text">
-              Conversor de Imagens para WebP
+              WebP Image Converter
             </h1>
             <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-              Converta suas imagens para o formato WebP e reduza o tamanho dos arquivos em até 34% mantendo a qualidade.
+              Convert your images to WebP format and reduce file sizes by up to 34% while maintaining quality.
             </p>
           </div>
 
-          <BrowserSupportWarning />
+          <BrowserSupportWarningEn />
 
           {/* Main Converter */}
           <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg border border-slate-200 dark:border-slate-800 p-6 mb-12">
-            <ImageConverter />
+            <ImageConverterEn />
           </div>
 
           {/* Info Sections */}
@@ -59,13 +59,13 @@ export default function Home() {
                 <span className="bg-teal-100 dark:bg-teal-900/30 w-8 h-8 rounded-full flex items-center justify-center mr-2 text-teal-700 dark:text-teal-400">
                   1
                 </span>
-                Por que WebP?
+                Why WebP?
               </h2>
               <ul className="space-y-2 list-disc pl-5 text-slate-700 dark:text-slate-300">
-                <li>Arquivos WebP são 26% menores que PNGs e 25-34% menores que JPEGs</li>
-                <li>Suporta transparência como PNG mas com melhor compressão</li>
-                <li>Carregamento de páginas mais rápido e melhor experiência do usuário</li>
-                <li>Suportado por todos os navegadores modernos</li>
+                <li>WebP files are 26% smaller than PNGs and 25-34% smaller than JPEGs</li>
+                <li>Supports transparency like PNG but with better compression</li>
+                <li>Faster page loading times and better user experience</li>
+                <li>Supported by all modern browsers</li>
               </ul>
             </div>
 
@@ -74,13 +74,13 @@ export default function Home() {
                 <span className="bg-teal-100 dark:bg-teal-900/30 w-8 h-8 rounded-full flex items-center justify-center mr-2 text-teal-700 dark:text-teal-400">
                   2
                 </span>
-                Como Usar
+                How to Use
               </h2>
               <ol className="space-y-2 list-decimal pl-5 text-slate-700 dark:text-slate-300">
-                <li>Arraste e solte suas imagens na área indicada ou clique para selecionar</li>
-                <li>Clique no botão "Converter para WebP" para iniciar a conversão</li>
-                <li>Aguarde o processo de conversão ser concluído</li>
-                <li>Clique no ícone de download para baixar as imagens convertidas</li>
+                <li>Drag and drop your images into the designated area or click to select</li>
+                <li>Click the "Convert to WebP" button to start the conversion</li>
+                <li>Wait for the conversion process to complete</li>
+                <li>Click the download icon to download the converted images</li>
               </ol>
             </div>
           </div>
@@ -99,9 +99,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-medium mb-2">Rápido e Eficiente</h3>
+              <h3 className="text-lg font-medium mb-2">Fast & Efficient</h3>
               <p className="text-slate-600 dark:text-slate-400">
-                Conversão rápida diretamente no navegador sem necessidade de upload.
+                Quick conversion directly in your browser without the need for uploads.
               </p>
             </div>
 
@@ -122,9 +122,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3 className="text-lg font-medium mb-2">Privacidade Garantida</h3>
+              <h3 className="text-lg font-medium mb-2">Privacy Guaranteed</h3>
               <p className="text-slate-600 dark:text-slate-400">
-                Suas imagens nunca saem do seu dispositivo, garantindo total privacidade.
+                Your images never leave your device, ensuring complete privacy.
               </p>
             </div>
 
@@ -145,9 +145,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3 className="text-lg font-medium mb-2">Compatibilidade Total</h3>
+              <h3 className="text-lg font-medium mb-2">Full Compatibility</h3>
               <p className="text-slate-600 dark:text-slate-400">
-                Funciona com todos os formatos de imagem populares: PNG, JPG, GIF e mais.
+                Works with all popular image formats: PNG, JPG, GIF, and more.
               </p>
             </div>
           </div>
@@ -157,8 +157,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-slate-200 dark:border-slate-800 py-6 bg-white dark:bg-slate-950">
         <div className="container mx-auto px-4 text-center text-slate-600 dark:text-slate-400 text-sm">
-          <p>© {new Date().getFullYear()} WebP Converter. Todos os direitos reservados.</p>
-          <p className="mt-2">Criado com ❤️ para otimizar suas imagens na web.</p>
+          <p>© {new Date().getFullYear()} WebP Converter. All rights reserved.</p>
+          <p className="mt-2">Created with ❤️ to optimize your images on the web.</p>
         </div>
       </footer>
     </div>
