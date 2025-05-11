@@ -1,30 +1,45 @@
-# Webp
+Built with ❤️ using V0.dev
+🔗 Public project link on V0: https://v0.dev/t/ZoLg0iA1Ybm
+# 🖼️ V0 WebP Converter
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+🔗 Public project link on V0: https://v0.dev/t/ZoLg0iA1Ybm
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/leosouzagmkt-gmailcoms-projects/v0-webp)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/obB2e6aVMTp)
+A fast and lightweight online tool to convert images to the WebP format — directly in your browser.
 
-## Overview
+This project was built with simplicity and performance in mind, helping users optimize their images for the web with no backend processing required.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🚀 Live Demo
 
-## Deployment
+👉 Try it online: https://v0-webp-gamma.vercel.app/
 
-Your project is live at:
+## ✨ Features
+- Drag & drop multiple images
+- Instant conversion to WebP (client-side)
+- Download images individually or in batch
+- Clean, responsive, and modern UI
 
-**[https://vercel.com/leosouzagmkt-gmailcoms-projects/v0-webp](https://vercel.com/leosouzagmkt-gmailcoms-projects/v0-webp)**
+## 🧰 Tech Stack
 
-## Build your app
+- **Next.js** — React framework
+- **Tailwind CSS** — Utility-first styling
+- **Browser APIs** — For image conversion and downloads
+- **Vercel** — Hosting & deployment
 
-Continue building your app on:
+## 📥 How to Use
 
-**[https://v0.dev/chat/projects/obB2e6aVMTp](https://v0.dev/chat/projects/obB2e6aVMTp)**
+1. Visit the live site: https://v0-webp-gamma.vercel.app/
+2. Drop or upload your images (JPG, PNG, etc.)
+3. Wait for automatic conversion
+4. Click to download individual files or download all at once
 
-## How It Works
+> All conversions happen locally in your browser — your files are never uploaded to a server.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🛠️ Development
+
+### Clone the repository
+```bash
+git clone https://github.com/ChaAcaL77/v0-webpconverter.git
+cd v0-webpconverter
+
+📄 License
+This project is open source and available under the MIT License.
